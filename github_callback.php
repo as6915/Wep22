@@ -1,7 +1,7 @@
 <?php
 session_start();
-$client_id = 'YOUR_GITHUB_CLIENT_ID';
-$client_secret = 'YOUR_GITHUB_CLIENT_SECRET';
+$client_id = 'Iv23li3Mt1ZwYvSLvb9h';
+$client_secret = 'Iv23li3Mt1ZwYvSLvb9h';
 $redirect_uri = 'http://yourdomain.com/github_callback.php';
 
 if (isset($_GET['code'])) {
